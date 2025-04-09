@@ -945,15 +945,17 @@ div[data-overlay] ul {
 /**! 25. Page Footers **/
 
 /* Rediseño completo del footer */
+
 .page-footer {
     background: linear-gradient(to right, #000000, #151525);
     color: white;
     position: relative;
-    width: 100%;
+    width: 106%;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-
+    margin-left: calc(-50vw + 50%); /* Centra el elemento */
+ 
 }
 
 .page-footer::before {
@@ -979,7 +981,7 @@ div[data-overlay] ul {
     justify-content: space-between;
     max-width: 1300px;
     margin: 0 auto;
-    padding: 20px 25px;
+    padding: 15px 0px;
     width: 100%;
 }
 
